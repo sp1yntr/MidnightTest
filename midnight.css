@@ -20,9 +20,9 @@
     /* accent colors */
     --accent-1: #c3c3c3; /* links */
     --accent-2: #f23f43; /* general unread/mention elements */
-    --accent-3: #c3c3c3; /* accent buttons */
-    --accent-4: #79b8d2; /* accent buttons when hovered */
-    --accent-5: #4099bf; /* accent buttons when clicked */
+    --accent-3: #bfbfbf; /* accent buttons */
+    --accent-4: #b3b3b3; /* accent buttons when hovered */
+    --accent-5: #808080; /* accent buttons when clicked */
     --mention: #43403a; /* mentions & mention messages */
     --mention-hover: #3f3d3a; /* mentions & mention messages when hovered */
 
