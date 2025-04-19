@@ -163,4 +163,8 @@ nav[class*="guilds_"] {
 
         margin-bottom: 8px;
     }
+    
+    [id^="folder-items-"] {
+        --guildbar-avatar-size: var(--guildbar-folder-size) !important;
+    }
 }
