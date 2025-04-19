@@ -967,7 +967,7 @@ body {
         }
 
         .expandedFolderIconWrapper__48112 > svg[style="color: rgb(88, 101, 242);"] /* folder icon */ {
-            color: transparent !important;
+            color: var(--accent-2) !important;
         }
         .colorPickerSwatch__459fb[style="background-color: rgb(88, 101, 242);"] /* folder color picker swatch */,
         .newBadge_faa96b /* forum post new badge */,
