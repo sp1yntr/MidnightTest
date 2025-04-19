@@ -1,8 +1,13 @@
 .visual-refresh {
-    --vr-header-snippet-top: 0px;
-    --vr-header-snippet-server-padding: 16px;
-    --vr-header-snippet-space: 230px;
-    --vr-header-snippet-button-padding: 0;
+    /* controls the vertical position of the window buttons */
+    --vr-header-snippet-top: 11px !important;
+    /* controls the space above the server list */
+    --vr-header-snippet-server-padding: 0px !important;
+    /* controls the space the window buttons get on the channel header, experiment around with this if you get gaps or the buttons overlap! */
+    --vr-header-snippet-space: 100px !important;
+    /* controls the space to the right of the window buttons, good if you are using themes like midnight which add padding to the bar */
+    --vr-header-snippet-button-padding: 16px !important;
+
 
     div.chat_f75fb0,
     div.subtitleContainer_f75fb0,
@@ -24,7 +29,7 @@
     }
 
     div.base_c48ade {
-        grid-template-rows: [top] 0 [titleBarEnd] min-content [noticeEnd] 1fr [contentEnd] min-content [end];
+        grid-template-rows: [top] var(--gap) [titleBarEnd] min-content [noticeEnd] 1fr [contentEnd] min-content [end];
 
         &:has(
                 div.bar_c38106
