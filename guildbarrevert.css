@@ -1,3 +1,6 @@
+
+/* ********************************************************************* */
+
 :root {
     --guildbar-avatar-size: 48px;
     --blob-scale: 48;
@@ -138,7 +141,7 @@ nav[class*="guilds_"] {
 
     [class*="isExpanded__"] {
         [class*="folder__"] {
-            background-color: var(--background-secondary);
+            background-color: #3f4147;
         }
 
         [class*="expandedFolderBackground__"] {
