@@ -937,7 +937,7 @@ body {
         }
 
         .folder__48112[aria-expanded="false"] > .folderIconWrapper__48112 /* collapsed folders */ {
-            --background-primary: transparent;
+            --background-primary: var(--bg-3);
         }
 
         .panel__5dec7 /* game activity panel */,
@@ -967,7 +967,7 @@ body {
         }
 
         .expandedFolderIconWrapper__48112 > svg[style="color: rgb(88, 101, 242);"] /* folder icon */ {
-            color: var(--accent-2) !important;
+            color: transparent !important;
         }
         .colorPickerSwatch__459fb[style="background-color: rgb(88, 101, 242);"] /* folder color picker swatch */,
         .newBadge_faa96b /* forum post new badge */,
