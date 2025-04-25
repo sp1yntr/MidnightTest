@@ -4,7 +4,7 @@
     /* controls the space above the server list */
     --vr-header-snippet-server-padding: 0px !important;
     /* controls the space the window buttons get on the channel header, experiment around with this if you get gaps or the buttons overlap! */
-    --vr-header-snippet-space: 50px !important;
+    --vr-header-snippet-space: 100px !important;
     /* controls the space to the right of the window buttons, good if you are using themes like midnight which add padding to the bar */
     --vr-header-snippet-button-padding: 16px !important;
 
